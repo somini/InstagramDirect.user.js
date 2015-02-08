@@ -8,5 +8,6 @@
 // @grant       none
 // ==/UserScript==
 
-var url = document.head.querySelector('meta[property="og:image"]').content
+var url = document.head.querySelector('meta[property="og:image"]').content;
+console.log("The URL is: "+url);
 window.location = url;
